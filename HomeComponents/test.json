@@ -1,0 +1,43 @@
+Object {
+  "album_type": "single",
+  "artists": Array [
+    Object {
+      "external_urls": Object {
+        "spotify": "https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq",
+      },
+      "href": "https://api.spotify.com/v1/artists/7jVv8c5Fj3E9VhNjxT4snq",
+      "id": "7jVv8c5Fj3E9VhNjxT4snq",
+      "name": "Lil Nas X",
+      "type": "artist",
+      "uri": "spotify:artist:7jVv8c5Fj3E9VhNjxT4snq",
+    },
+  ],
+  "external_urls": Object {
+    "spotify": "https://open.spotify.com/album/2Hjcfw8zHN4dJDZJGOzLd6",
+  },
+  "href": "https://api.spotify.com/v1/albums/2Hjcfw8zHN4dJDZJGOzLd6",
+  "id": "2Hjcfw8zHN4dJDZJGOzLd6",
+  "images": Array [
+    Object {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273664034dd80e91b28f773598d",
+      "width": 640,
+    },
+    Object {
+      "height": 300,
+      "url": "https://i.scdn.co/image/ab67616d00001e02664034dd80e91b28f773598d",
+      "width": 300,
+    },
+    Object {
+      "height": 64,
+      "url": "https://i.scdn.co/image/ab67616d00004851664034dd80e91b28f773598d",
+      "width": 64,
+    },
+  ],
+  "name": "MONTERO (Call Me By Your Name)",
+  "release_date": "2021-03-31",
+  "release_date_precision": "day",
+  "total_tracks": 3,
+  "type": "album",
+  "uri": "spotify:album:2Hjcfw8zHN4dJDZJGOzLd6",
+}

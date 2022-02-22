@@ -1,0 +1,243 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.music"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:5:3-75
+11-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:5:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:3:3-64
+12-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.VIBRATE" /> <!-- These require runtime permissions on M -->
+13-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:6:3-63
+13-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:6:20-61
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:8:3-77
+14-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:8:20-75
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- END OPTIONAL PERMISSIONS -->
+15-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:9:3-78
+15-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:9:20-76
+16    <queries>
+16-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:12:3-19:13
+17
+18        <!-- Support checking for http(s) links via the Linking API -->
+19        <intent>
+19-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:14:5-18:14
+20            <action android:name="android.intent.action.VIEW" />
+20-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:15:7-59
+20-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:15:15-56
+21
+22            <category android:name="android.intent.category.BROWSABLE" />
+22-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:16:7-68
+22-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:16:17-65
+23
+24            <data android:scheme="https" />
+24-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:17:7-38
+24-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:17:13-35
+25        </intent>
+26        <!-- Query open documents -->
+27        <intent>
+27-->[:expo-file-system] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-21:18
+28            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+28-->[:expo-file-system] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-79
+28-->[:expo-file-system] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:21-76
+29        </intent>
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+32-->[com.facebook.flipper:flipper:0.54.0] /root/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+32-->[com.facebook.flipper:flipper:0.54.0] /root/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+33-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-65
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-77
+34-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-74
+35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+35-->[:expo-updates] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+35-->[:expo-updates] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+36-->[com.android.installreferrer:installreferrer:1.0] /root/.gradle/caches/transforms-3/0216649a411c7beb5c9ae693cfa03508/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+36-->[com.android.installreferrer:installreferrer:1.0] /root/.gradle/caches/transforms-3/0216649a411c7beb5c9ae693cfa03508/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+37
+38    <application
+38-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:21:3-31:17
+39        android:name="com.music.MainApplication"
+39-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:21:60-91
+40        android:allowBackup="false"
+40-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:21:206-233
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.3.0] /root/.gradle/caches/transforms-3/d15795c47be914585ca458b102a40944/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:icon="@mipmap/ic_launcher"
+43-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:21:125-159
+44        android:label="@string/app_name"
+44-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:21:92-124
+45        android:requestLegacyExternalStorage="true"
+45-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:21:16-59
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:21:160-205
+47        android:theme="@style/AppTheme"
+47-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:21:234-265
+48        android:usesCleartextTraffic="true" >
+48-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:21:266-301
+49        <meta-data
+49-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:22:5-103
+50            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+50-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:22:16-67
+51            android:value="YOUR-APP-URL-HERE" />
+51-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:22:68-101
+52        <meta-data
+52-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:23:5-112
+53            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+53-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:23:16-68
+54            android:value="YOUR-APP-SDK-VERSION-HERE" />
+54-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:23:69-110
+55
+56        <activity
+56-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:24:5-29:16
+57            android:name="com.music.MainActivity"
+57-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:24:15-43
+58            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+58-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:24:77-154
+59            android:label="@string/app_name"
+59-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:24:44-76
+60            android:launchMode="singleTask"
+60-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:24:155-186
+61            android:theme="@style/Theme.App.SplashScreen"
+61-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:24:230-275
+62            android:windowSoftInputMode="adjustResize" >
+62-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:24:187-229
+63            <intent-filter>
+63-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:25:7-28:23
+64                <action android:name="android.intent.action.MAIN" />
+64-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:26:9-60
+64-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:26:17-58
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:27:9-68
+66-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:27:19-66
+67            </intent-filter>
+68        </activity>
+69        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+69-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:30:5-81
+69-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:30:15-79
+70
+71        <provider
+71-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+72            android:name="cl.json.RNShareFileProvider"
+72-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-55
+73            android:authorities="com.music.rnshare.fileprovider"
+73-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-72
+74            android:exported="false"
+74-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+75            android:grantUriPermissions="true" >
+75-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+76            <meta-data
+76-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:64
+77                android:name="android.support.FILE_PROVIDER_PATHS"
+77-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+78                android:resource="@xml/share_download_paths" />
+78-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-61
+79        </provider> <!-- The main service, handles playback, playlists and media buttons -->
+80        <service
+80-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-24:19
+81            android:name="com.guichaguri.trackplayer.service.MusicService"
+81-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-75
+82            android:enabled="true"
+82-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-35
+83            android:exported="true" >
+83-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-36
+84            <intent-filter>
+84-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-23:29
+85                <action android:name="android.intent.action.MEDIA_BUTTON" />
+85-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-77
+85-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-74
+86            </intent-filter>
+87        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+88        <receiver android:name="androidx.media.session.MediaButtonReceiver" >
+88-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-31:20
+88-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:19-76
+89            <intent-filter>
+89-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-23:29
+90                <action android:name="android.intent.action.MEDIA_BUTTON" />
+90-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-77
+90-->[:react-native-track-player] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-track-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-74
+91            </intent-filter>
+92        </receiver>
+93
+94        <provider
+94-->[:expo-file-system] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-34:20
+95            android:name="expo.modules.filesystem.FileSystemFileProvider"
+95-->[:expo-file-system] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-74
+96            android:authorities="com.music.FileSystemFileProvider"
+96-->[:expo-file-system] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-74
+97            android:exported="false"
+97-->[:expo-file-system] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-37
+98            android:grantUriPermissions="true" >
+98-->[:expo-file-system] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-47
+99            <meta-data
+99-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:64
+100                android:name="android.support.FILE_PROVIDER_PATHS"
+100-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+101                android:resource="@xml/file_system_provider_paths" />
+101-->[:react-native-share] /home/abhishek/coding/android/React_Native/Music/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-61
+102        </provider>
+103
+104        <meta-data
+104-->[:expo-modules-core] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:89
+105            android:name="org.unimodules.core.AppLoader#react-native-headless"
+105-->[:expo-modules-core] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+106            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+106-->[:expo-modules-core] /home/abhishek/coding/android/React_Native/Music/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-86
+107
+108        <activity
+108-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:37:9-41:75
+109            android:name="net.openid.appauth.AuthorizationManagementActivity"
+109-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:38:13-78
+110            android:exported="false"
+110-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:39:13-37
+111            android:launchMode="singleTask"
+111-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:40:13-44
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:41:13-72
+113        <activity
+113-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:42:9-53:20
+114            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+114-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:43:13-74
+115            android:exported="true" >
+115-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:44:13-36
+116            <intent-filter>
+116-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:45:13-52:29
+117                <action android:name="android.intent.action.VIEW" />
+117-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:15:7-59
+117-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:15:15-56
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:48:17-76
+119-->[net.openid:appauth:0.8.1] /root/.gradle/caches/transforms-3/5b4c5dd508adb05d9a29c6017f72878b/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:48:27-73
+120                <category android:name="android.intent.category.BROWSABLE" />
+120-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:16:7-68
+120-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:16:17-65
+121
+122                <data android:scheme="com.music" />
+122-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:17:7-38
+122-->/home/abhishek/coding/android/React_Native/Music/android/app/src/main/AndroidManifest.xml:17:13-35
+123            </intent-filter>
+124        </activity>
+125
+126        <service
+126-->[androidx.room:room-runtime:2.1.0] /root/.gradle/caches/transforms-3/8cc4149e3bbd3098633168f95e5c4ac7/transformed/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+127            android:name="androidx.room.MultiInstanceInvalidationService"
+127-->[androidx.room:room-runtime:2.1.0] /root/.gradle/caches/transforms-3/8cc4149e3bbd3098633168f95e5c4ac7/transformed/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+128            android:exported="false" />
+128-->[androidx.room:room-runtime:2.1.0] /root/.gradle/caches/transforms-3/8cc4149e3bbd3098633168f95e5c4ac7/transformed/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+129    </application>
+130
+131</manifest>

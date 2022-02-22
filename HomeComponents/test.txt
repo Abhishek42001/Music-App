@@ -1,0 +1,34 @@
+Background sticky concurrent mark sweep GC freed 90831(2MB) AllocSpace objects, 5(100KB) LOS objects, 19% free, 14MB/18MB, paused 1.721ms total 932.578ms
+12-10 01:44:53.685  4884 24111 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+12-10 01:45:40.692  1722 12233 D DnsEventListenerService: Logging 100 results for netId 101
+12-10 01:48:05.402 23016 23016 D RNTrackPlayer: onPlayerStateChanged: 0, 0
+12-10 01:48:05.406  1421  1444 W audio_hw_generic: Not supplying enough data to HAL, expected position 11697182 , only wrote 11697120
+12-10 01:48:06.433 23016 23016 D RNTrackPlayer: Preparing the media source...
+12-10 01:48:06.434 23016 23016 D RNTrackPlayer: onPlayerStateChanged: 8, 0
+12-10 01:48:06.434 23016 23016 D RNTrackPlayer: onPause
+12-10 01:48:06.442 23016 23016 D RNTrackPlayer: onStateChange
+12-10 01:48:06.456 23016 23016 D RNTrackPlayer: onPlayerStateChanged: 6, 8
+12-10 01:48:06.456 23016 23016 D RNTrackPlayer: onPlay
+12-10 01:48:06.456 23016 23016 D RNTrackPlayer: Requesting audio focus...
+12-10 01:48:06.457  1722 12232 I MediaFocusControl:  AudioFocus  requestAudioFocus() from uid/pid 10083/23016 clientId=android.media.AudioManager@5a05115com.guichaguri.trackplayer.service.MusicManager@9351c2a req=1 flags=0x0
+12-10 01:48:06.463 23016 23016 D RNTrackPlayer: onStateChange
+12-10 01:48:06.466 23016 23016 D RNTrackPlayer: onTimelineChanged: 0
+12-10 01:48:06.466 23016 23016 D RNTrackPlayer: onPositionDiscontinuity: 4
+12-10 01:48:07.580 23016 24602 E ExoPlayerImplInternal: Source error
+12-10 01:48:07.580 23016 24602 E ExoPlayerImplInternal:   com.google.android.exoplayer2.source.UnrecognizedInputFormatException: None of the available extractors (MatroskaExtractor, FragmentedMp4Extractor, Mp4Extractor, Mp3Extractor, AdtsExtractor, Ac3Extractor, TsExtractor, FlvExtractor, OggExtractor, PsExtractor, WavExtractor, AmrExtractor, Ac4Extractor, FlacExtractor) could read the stream.
+12-10 01:48:07.580 23016 24602 E ExoPlayerImplInternal:       at com.google.android.exoplayer2.source.ProgressiveMediaPeriod$ExtractorHolder.selectExtractor(ProgressiveMediaPeriod.java:1090)
+12-10 01:48:07.580 23016 24602 E ExoPlayerImplInternal:       at com.google.android.exoplayer2.source.ProgressiveMediaPeriod$ExtractingLoadable.load(ProgressiveMediaPeriod.java:969)
+12-10 01:48:07.580 23016 24602 E ExoPlayerImplInternal:       at com.google.android.exoplayer2.upstream.Loader$LoadTask.run(Loader.java:391)
+12-10 01:48:07.580 23016 24602 E ExoPlayerImplInternal:       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-10 01:48:07.580 23016 24602 E ExoPlayerImplInternal:       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-10 01:48:07.580 23016 24602 E ExoPlayerImplInternal:       at java.lang.Thread.run(Thread.java:761)
+12-10 01:48:07.584 23016 23016 D RNTrackPlayer: onError
+12-10 01:48:07.584 23016 23016 E RNTrackPlayer: Playback error: playback-source - None of the available extractors (MatroskaExtractor, FragmentedMp4Extractor, Mp4Extractor, Mp3Extractor, AdtsExtractor, Ac3Extractor, TsExtractor, FlvExtractor, OggExtractor, PsExtractor, WavExtractor, AmrExtractor, Ac4Extractor, FlacExtractor) could read the stream.
+12-10 01:48:07.585 23016 23016 D RNTrackPlayer: onPlayerStateChanged: 0, 6
+12-10 01:48:07.586 23016 23016 D RNTrackPlayer: onStop
+12-10 01:48:07.589 23016 23016 D RNTrackPlayer: Abandoning audio focus...
+12-10 01:48:07.589  1722 12235 I MediaFocusControl:  AudioFocus  abandonAudioFocus() from uid/pid 10083/23016 clientId=android.media.AudioManager@5a05115com.guichaguri.trackplayer.service.MusicManager@9351c2a
+12-10 01:48:07.591 23016 23016 D RNTrackPlayer: onStateChange
+12-10 01:48:09.636  1421  1445 W audio_hw_generic: Not supplying enough data to HAL, expected position 12101105 , only wrote 11900160
+12-10 01:48:15.762  4884  4997 I PhenotypeProcessReaper: Memory state is: 200
+abhishek@abhishek:~/coding/android/React_Native/Music$ 
